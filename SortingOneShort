@@ -1,0 +1,15 @@
+#Sorting
+1) selection sort : simply calculate the min and swap at last;
+2) buble sort : if pair of elements are not in order than swap it i.e arr[i], arr[i+1]
+3) insertion Sort : sort starting subArray and place last element in correct manner
+4)mergeSort : simply divide and qonquer
+5) quick Sort : simply divide and qonquer, but there is pivot element through which we do partition
+   
+   
+   DIFFERENCE BETWEEN QUICK SORT AND MERGE SORT
+   1) QUICK SORT IS FASTER THAN MERGE SORT
+   Feature	                                Quick Sort	                            Merge Sort
+   Time complexity	            O(n log n) average, O(n^2) worst	            O(n log n) average, O(n log n) worst
+   Stability	                          Unstable	                                    Stable
+   Memory usage	                        O(log n)	                                     O(n)
+  Best use case	                           Large arrays	                          Small arrays, arrays that need to be sorted in a stable manner
